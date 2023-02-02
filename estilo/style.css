@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #0D0D0D;
+    margin: 3px;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+.cabecalho{
+
+    background-color: rgb(0, 161, 86);
+  
+    padding: 30px;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    margin: 0px;  
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.titulo-cabecalho{
+
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+.menu{
+    
+    color: white;
+    font-size: 12px;
+    padding-top: 8px;
+    display: block;
+    background-color: rgba(0, 161, 86, 0);
+    padding: auto;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.418);
+   
+}
+nav > a{
+
+    color: white;
+    padding: 10px;
+    margin-left: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover{
+
+    background-color: rgb(0, 161, 86);
+    color: white;
+    transition-duration: 0.75s;
+    padding: auto;
+}
+
+
+main{
+background-color: white;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.507);
+margin: auto;
+min-width: 300px;
+max-width: 900px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-radius: 10px;
+}
+
+a{
+    padding-top: 10px;
+    color: white;
+    padding-left: 17px;
+    text-decoration: none;
+    
+    
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 0 0 20px
+}
+
+h2{
+    padding: 20px 0 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.artigo1{
+    text-align: justify;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.titulo-artigo{
+
+   background: linear-gradient(to left, white , rgba(3, 223, 3, 0.438) );
+   padding-top: 10px;
+
+}
+ 
+img{
+    width: 100%;
+ 
+}
+
+iframe{
+    margin: auto;
+    
+}
+.roda-pe{
+
+    background-color: rgb(0, 161, 86);
+    padding-top: 0px;
+ }
+
+.roda-pe > p {
+
+    text-align: center;
+} 
+
+main img.pequena{
+
+    width: 40%;
+    display: block;
+    margin: auto;
+
+}
+
